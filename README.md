@@ -42,4 +42,4 @@ We will assess the task based on the following criteria:
 
 We appreciate your free time is important. Therefore, if you feel your unfinished code demonstrates enough for us to assess the application please leave some notes in your `README.md` explaining what you would do next given more time. We would be happy to review this.
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [MCRcodes/react-bootstrap](https://github.com/MCRcodes/react-bootstrap).
