@@ -1,14 +1,15 @@
 ## [Frontend-NASA-tech-test](https://jsainsburyplc.github.io/front-end-test/)
 
-#### Brief
-In this exercise you will develop a web application that integrates with the [NASA Image and Video Library](https://api.nasa.gov/api.html#MarsPhotos) API.
+#### Initial Startup
+![BasicAttempt](./imgs/startingUp.png)
 
-It should allow users to search for assets and then select and view an asset.
+#### Brief
+In this exercise you will develop a web application that integrates with the [NASA Image and Video Library](https://api.nasa.gov/api.html#MarsPhotos) API. It should allow users to search for assets and then select and view an asset.
 
 #### Wireframes
 The following wireframes show a high-level representation of the content and user flow - we encourage you to go above and beyond what is presented, demonstrating your UX/UI as well as coding skills:
 
-![Wireframes](./wireframes.png)
+![Wireframes](./imgs/wireframes.png)
 
 #### API
 ```bash
@@ -18,6 +19,15 @@ curl -G https://images-api.nasa.gov/search \
   --data-urlencode "description=moon landing" \
   --data-urlencode "media_type=image"
 ```
+#### Available Endpoints
+The images API contains 4 endpoints GET https://images-api.nasa.gov
+
+| Endpoint                | Description                                  |
+|-------------------------|----------------------------------------------|
+| GET /search?q={q}	      | Performing a search                          | 
+| GET /asset/{nasa_id}	  | Retrieving a media asset’s manifest          | 
+| GET /metadata/{nasa_id}	| Retrieving a media asset’s metadata location |
+| GET /captions/{nasa_id}	| Retrieving a video asset’s captions location |
 
 #### Reference / documentation
 - https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf (PDF docs)
@@ -39,7 +49,5 @@ We will assess the task based on the following criteria:
 - Responsive web design techniques used and the approach used for layout and accessibility.
 - Testing.
 - Anything above and beyond e.g. pagination, animation, routing, video playback etc.
-
-We appreciate your free time is important. Therefore, if you feel your unfinished code demonstrates enough for us to assess the application please leave some notes in your `README.md` explaining what you would do next given more time. We would be happy to review this.
 
 This project was bootstrapped with [MCRcodes/react-bootstrap](https://github.com/MCRcodes/react-bootstrap).

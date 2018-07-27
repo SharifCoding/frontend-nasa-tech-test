@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import Search from './search';
+import Assets from './assets';
 import './home.css';
 
 class Home extends Component {
@@ -33,6 +34,9 @@ class Home extends Component {
         </h1>
         <Search
           handleSubmit={this.handleSubmit}
+        />
+        <Assets
+          pictures={this.state.pictures}
         />
       </div>
     );
