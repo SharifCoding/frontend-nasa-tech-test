@@ -3,6 +3,8 @@ import axios from 'axios';
 
 import Search from './search';
 import Assets from './assets';
+import nasaLogo from '../images/nasa-logo.png';
+
 import './home.css';
 
 class Home extends Component {
@@ -29,6 +31,7 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
+        <img src={nasaLogo} alt="NASA" width="80" title="NASA logo" />
         <h1 className="App-title">
           NASA Search
         </h1>

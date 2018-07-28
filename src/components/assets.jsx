@@ -2,8 +2,8 @@ import React from 'react';
 
 import './assets.css';
 
-const Assets = props => {
-  const pics = props.pictures.map(picture => (
+const Assets = Props => {
+  const picArray = Props.pictures.map(picture => (
     <Asset
       key={picture.data[0].nasa_id}
       title={picture.data[0].title}
@@ -12,21 +12,14 @@ const Assets = props => {
   ));
   return (
     <ul className="Asset-list">
-      {pics}
+      {picArray}
     </ul>
   );
-
 };
 
-const Asset = props => (
+const Asset = Props => (
   <li className="Asset-wrap">
-    <a href={props.url}>
-      <img
-        src={props.url}
-        title={props.title}
-      />
-    </a>
-    <br />
+    <img src={Props.url} title={Props.title} />
   </li>
 );
 

@@ -1,11 +1,11 @@
-.Search-form {
-
-}
-
 .Search-input {
-
+	width: 200px;
 }
 
 .Search-button {
-
+	border: none;
+	background-color: skyblue;
+    cursor:pointer;
+	margin: 5px;
+	padding: 5px;
 }

@@ -24,7 +24,7 @@ class Search extends Component {
       <div className="Search-form">
         <input
           className="Search-input"
-          placeholder="search image/video"
+          placeholder="search image"
           onChange={this.handleInput}
           value={this.state.query}
         />
