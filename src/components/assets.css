@@ -1,4 +1,18 @@
 .Asset-wrap {
-    text-decoration: none;
-    display: block;
+  text-decoration: none;
+  display: block;
+}
+
+.Asset-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Asset-list img {
+  width: 100%;
+  border: 5px solid #fff;
 }

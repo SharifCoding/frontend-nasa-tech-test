@@ -1,6 +1,5 @@
 ## [frontend-NASA-tech-test](https://jsainsburyplc.github.io/front-end-test/)
-
-![Earth Search](./imgs/frontEnd.png)
+![Earth Search](./imgs/cssGrid.png)
 
 #### Brief
 Develop a web application that integrates with the [NASA Image and Video Library](https://api.nasa.gov/api.html#MarsPhotos) API. It should allow users to search for assets and then select and view an asset.

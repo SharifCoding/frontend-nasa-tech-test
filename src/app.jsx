@@ -9,7 +9,7 @@ const App = () => (
   <Router>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/search/" component={Search} />
+      <Route path="/search" component={Search} />
       <Route path="/asset/:id" component={Assets} />
     </Switch>
   </Router>
