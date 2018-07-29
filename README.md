@@ -1,8 +1,9 @@
 ## [frontend-NASA-tech-test](https://jsainsburyplc.github.io/front-end-test/)
-![Earth Search](./imgs/cssGrid.png)
-
-#### Brief
 Develop a web application that integrates with the [NASA Image and Video Library](https://api.nasa.gov/api.html#MarsPhotos) API. It should allow users to search for assets and then select and view an asset.
+
+<b>Heroku Link - https://weather-react-axios.herokuapp.com</b>
+
+![Earth Search](./imgs/cssGrid.png)
 
 #### Built with
 * [npm](https://www.npmjs.com/) - Node Package Manager
