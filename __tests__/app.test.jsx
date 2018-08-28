@@ -29,7 +29,9 @@ xit('has a query input that sets query state on change', () => {
   const search = wrapper.find('input.search').text();
   expect(wrapper.state('query')).toEqual('');
 
-  search.simulate('change', { target: { value: 'foo' } });
+  // search.simulate('change', { target: { value: 'foo' } });
+  // expect(wrapper.state('query')).toEqual('foo');
 
-  expect(wrapper.state('query')).toEqual('foo');
+  wrapper.find('input').simulate('change', { target: { value: 'foo' } });
+  expect(wrapper.state('query')).toBe('foo');
 });
